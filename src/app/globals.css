@@ -1,26 +1,179 @@
 @import "tailwindcss";
 
+/* 吉伊卡哇风格的可爱蓝色暖色调 */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --kawaii-sky-blue: #87CEEB;
+  --kawaii-baby-blue: #B8E6FF;
+  --kawaii-mint-blue: #AFEEEE;
+  --kawaii-powder-blue: #B0E0E6;
+  --kawaii-periwinkle: #CCCCFF;
+  --kawaii-lavender: #E6E6FA;
+  --kawaii-cream: #FFF8DC;
+  --kawaii-pink: #FFB6C1;
+  --kawaii-yellow: #FFFFE0;
+  --kawaii-white: #FFFAFA;
+  
+  --background: linear-gradient(135deg, var(--kawaii-baby-blue) 0%, var(--kawaii-powder-blue) 50%, var(--kawaii-lavender) 100%);
+  --foreground: #2C5F7A;
+  --text-soft: #4A90B8;
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --card-shadow: rgba(135, 206, 235, 0.3);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: 'Comic Sans MS', cursive, var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Comic Sans MS', 'Hiragino Sans GB', '微软雅黑', cursive, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* 可爱的浮动动画 */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes bounce-gentle {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0.7; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  75% { transform: rotate(-10deg); }
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(30px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* 可爱的动画类 */
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-spin.slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+.animate-wave {
+  animation: wave 2s ease-in-out infinite;
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+
+/* 可爱的装饰元素 */
+.kawaii-decoration::before {
+  content: '✨';
+  position: absolute;
+  animation: sparkle 2s infinite;
+}
+
+.kawaii-decoration::after {
+  content: '🌸';
+  position: absolute;
+  right: -10px;
+  top: -5px;
+  animation: float 3s infinite;
+}
+
+/* 可爱的按钮样式 */
+.kawaii-button {
+  background: linear-gradient(45deg, var(--kawaii-sky-blue), var(--kawaii-mint-blue));
+  border-radius: 25px;
+  box-shadow: 0 4px 15px var(--card-shadow);
+  transition: all 0.3s ease;
+  transform: perspective(1px) translateZ(0);
+}
+
+.kawaii-button:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 25px var(--card-shadow);
+}
+
+/* 可爱的卡片样式 */
+.kawaii-card {
+  background: var(--card-bg);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px var(--card-shadow);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.kawaii-card:hover {
+  transform: translateY(-5px) rotate(1deg);
+  box-shadow: 0 15px 35px var(--card-shadow);
+}
+
+.kawaii-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--kawaii-pink), var(--kawaii-sky-blue), var(--kawaii-mint-blue));
+}
+
+/* 文本截断工具类 */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 标题样式 */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  background: linear-gradient(45deg, var(--kawaii-sky-blue), var(--kawaii-periwinkle), var(--kawaii-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(135, 206, 235, 0.3);
+  position: relative;
+}
+
+h1::after {
+  content: '🌟';
+  position: absolute;
+  right: -30px;
+  top: 0;
+  animation: sparkle 2s infinite;
 }

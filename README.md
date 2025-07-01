@@ -152,14 +152,16 @@ cp .env.example .env.local
 
 ### 截图预览区
 ![QAnything集成效果]
-<mcurl name="示例截图" url="https://github.com/gy050207/blog-platform/blob/master/images/Qanything.png"></mcurl>
+<img src="https://github.com/gy050207/blog-platform/blob/master/images/Qanything.png"
+    alt="qanything" width="200">
 
 ![WakaTime统计展示]
-<mcurl name="示例截图" url="https://github.com/gy050207/blog-platform/blob/master/images/waketime.png"></mcurl>
+<img src="https://github.com/gy050207/blog-platform/blob/master/images/waketime.png"
+    alt="waketime" width="200">
 
 ![课程练习界面]
-<mcurl name="示例截图" url="https://github.com/gy050207/blog-platform/blob/master/images/exercise.png"></mcurl>
-
+<img src="https://github.com/gy050207/blog-platform/blob/master/images/exercise.png"
+    alt="exercise" width="200">
 
 ## 🔧 开发指南
 

@@ -151,12 +151,15 @@ cp .env.example .env.local
 | `npm run lint` | 代码检查 | 🔍 |
 
 ### 截图预览区
-![QAnything集成效果](/public/screenshots/qanything-demo.png) 
-<mcurl name="示例截图" url="https://example.com/screenshot-placeholder"></mcurl>
+![QAnything集成效果]
+<mcurl name="示例截图" url="https://github.com/gy050207/blog-platform/blob/master/images/Qanything.png"></mcurl>
 
-![WakaTime统计展示](/public/screenshots/wakatime-stats.png)
+![WakaTime统计展示]
+<mcurl name="示例截图" url="https://github.com/gy050207/blog-platform/blob/master/images/waketime.png"></mcurl>
 
-![课程练习界面](/public/screenshots/practice-demo.png)
+![课程练习界面]
+<mcurl name="示例截图" url="https://github.com/gy050207/blog-platform/blob/master/images/exercise.png"></mcurl>
+
 
 ## 🔧 开发指南
 

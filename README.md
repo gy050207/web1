@@ -2,6 +2,20 @@
 
 > 一个充满吉伊卡哇元素的超可爱前端学习平台！🎀💖
 
+## 🌟 项目简介
+
+集可爱与技术于一体的前端学习平台，通过以下创新实现沉浸式学习体验：
+
+### 🧩 核心功能集成
+- **QAnything知识库**：通过iframe嵌入官方演示页面
+- 📌 选择原因：快速集成且保持功能完整
+- 🛠️ 实现路径：`/app/qanything/page.tsx`中创建专属路由
+- **WakaTime统计**：
+  1. 注册获取API密钥
+  2. 安装`@wakatime/javascript` SDK
+  3. 创建`WakaTimeStats`组件
+  4. 使用SWR进行数据缓存
+
 ## 🎯 项目亮点
 
 这是一个基于 Next.js 15 的**超级可爱**的前端学习平台，采用了：
@@ -60,6 +74,32 @@ npm run dev --turbo
 - 💫 闪烁的表情符号
 - 🦋 温馨的配色方案
 
+## 🏗️ Next.js项目结构详解
+
+### 核心目录说明
+```
+src/app/
+├── (main)/               # 主布局组
+│   ├── layout.tsx        # 全局毛玻璃布局
+│   └── page.tsx          # 带粒子动效的首页
+├── qanything/            # QAnything集成
+│   └── page.tsx          # iframe嵌入页面
+├── wakatime/             # 编码统计
+│   ├── api/              # 代理API路由
+│   └── page.tsx          # 环形图表展示
+└── practice/[id]/        # 课程练习
+    ├── page.tsx          # 练习容器
+    └── components/       # 旧作业组件化
+        ├── css-box       # 盒子模型demo
+        └── css-position  # 定位练习
+```
+
+### 🧩 旧作业整合方案
+1. 创建分支保存原始作业
+2. 使用`next/script`加载第三方资源
+3. 通过动态路由匹配练习ID
+4. 为每个练习添加悬浮说明卡片
+
 ## 📂 项目结构
 
 ```
@@ -93,6 +133,30 @@ npm run dev --turbo
 - 🎈 悬浮动画和缩放效果
 - ✨ 渐入动画和延迟加载
 - 🌸 可爱的按钮和卡片交互
+
+## 🚀 详细运行指南
+
+### 环境准备
+```bash
+# 复制环境变量模板
+cp .env.example .env.local
+```
+
+### 启动参数说明
+| 命令 | 功能 | 可爱加成 |
+|------|------|---------|
+| `npm run dev` | 标准启动 | 🐢 |
+| `npm run dev --turbo` | Turbopack模式 | 🚀 |
+| `npm run build` | 生产构建 | 🏗️ |
+| `npm run lint` | 代码检查 | 🔍 |
+
+### 截图预览区
+![QAnything集成效果](/public/screenshots/qanything-demo.png) 
+<mcurl name="示例截图" url="https://example.com/screenshot-placeholder"></mcurl>
+
+![WakaTime统计展示](/public/screenshots/wakatime-stats.png)
+
+![课程练习界面](/public/screenshots/practice-demo.png)
 
 ## 🔧 开发指南
 

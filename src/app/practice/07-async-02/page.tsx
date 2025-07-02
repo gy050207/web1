@@ -57,7 +57,7 @@ export default function Page() {
         <div className="relative mb-8">
           <Link href="/" className="kawaii-button px-6 py-3 text-white hover:scale-105 transition-all duration-300 inline-flex items-center gap-2 shadow-lg">
             <span className="text-xl">🏠</span>
-            <span>回到温馨小屋</span>
+            <span>回到学习小屋</span>
           </Link>
         </div>
 

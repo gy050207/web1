@@ -8,7 +8,7 @@ function KawaiiNavbar() {
     <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md text-blue-800 p-4 shadow-lg w-full z-50 border-b-2 border-blue-200">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold hover:text-blue-600 transition-colors duration-300 tracking-wider kawaii-decoration relative">
-          🌈 可爱学习小屋 🌈
+          🌈 故游的学习小屋 🌈
         </Link>
         <div className="space-x-6 text-lg">
           <Link href="/" className="kawaii-button px-4 py-2 text-white hover:scale-105 transition-all duration-300 inline-block">
@@ -35,7 +35,7 @@ export default function HomePage() {
         <div className="absolute bottom-60 left-20 text-5xl animate-pulse">🌈</div>
         <div className="absolute top-80 right-40 text-3xl animate-spin slow">☁️</div>
       </div>
-      
+
       <KawaiiNavbar />
 
       <main className="flex-grow container mx-auto px-4 py-12 pt-28 w-full z-10">
@@ -44,7 +44,7 @@ export default function HomePage() {
             <div className="text-4xl animate-bounce">🎀</div>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 kawaii-decoration relative">
-            ✨ 可爱前端学习之旅 ✨
+            ✨ 故游的前端学习之旅 ✨
           </h1>
           <p className="text-lg md:text-xl text-blue-600 max-w-3xl mx-auto tracking-wide bg-white/60 rounded-full px-8 py-4 shadow-lg">
             🌟 和小伙伴一起探索奇妙的编程世界吧！ 🌟
@@ -60,16 +60,16 @@ export default function HomePage() {
         <section className="relative">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-blue-700 mb-4 kawaii-decoration">
-              🎯 超可爱的练习任务 🎯
+              🎯 练习任务 🎯
             </h2>
             <p className="text-blue-600 bg-white/50 rounded-full px-6 py-2 inline-block">
-              每一个都是精心准备的小惊喜哦~ 💕
+             春风也有春风愁，不劳春风为我忧 💕
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {exercisesData.map((exercise: ExerciseCardProps, index: number) => (
-              <div key={exercise.id} className="animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
+              <div key={exercise.id} className="animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
                 <KawaiiExerciseCard
                   id={exercise.id}
                   title={exercise.title}
@@ -94,7 +94,7 @@ export default function HomePage() {
       </main>
 
       <WakaTimeStats />
-      
+
       {/* 可爱的浮动元素 */}
       <div className="fixed bottom-10 right-10 z-20">
         <div className="text-6xl animate-bounce cursor-pointer hover:scale-110 transition-transform">

@@ -1,27 +1,39 @@
 [
   {
     "id": 1,
-    "title": "智能小助手问答",
-    "description": "和可爱的AI小伙伴一起聊天！通过嵌入式窗口体验智能问答服务，就像和朋友聊天一样简单哦~",
+    "title": "QAnything问答",
+    "description": "和可爱的AI秋一起聊天！通过嵌入式窗口体验智能问答服务，就像和朋友聊天一样简单哦~",
     "link": "/practice/embed-demo",
     "imageUrl": "/practice/images/chiikawa动态表情包 (159)_爱给网_aigei_com.gif",
-    "tags": ["智能对话", "嵌入技术", "AI助手"]
+    "tags": [
+      "智能对话",
+      "嵌入技术",
+      "AI助手秋"
+    ]
   },
   {
     "id": 2,
-    "title": "我的第一个应用",
+    "title": "React应用",
     "description": "让我们一起创造第一个React小应用吧！就像搭积木一样简单有趣，每个组件都是一个小精灵~",
     "link": "/practice/my-app",
     "imageUrl": "/practice/images/chiikawa表情包动图 (10)_爱给网_aigei_com.gif",
-    "tags": ["React入门", "组件化", "初学者友好"]
+    "tags": [
+      "React入门",
+      "组件化",
+      "初学者友好"
+    ]
   },
   {
     "id": 3,
-    "title": "CSS魔法课堂1",
-    "description": "欢迎来到CSS的魔法世界！学习选择器和基本属性，就像学习魔法咒语一样神奇~ 让页面变得美美哒！",
+    "title": "CSS课堂",
+    "description": "欢迎来到CSS的世界！学习选择器和基本属性，就像学习魔法咒语一样神奇~ 让页面变得美美哒！",
     "link": "/practice/03-css-01",
     "imageUrl": "/practice/images/chiikawa动态表情包 (208)_爱给网_aigei_com.gif",
-    "tags": ["CSS基础", "选择器", "样式魔法"]
+    "tags": [
+      "CSS基础",
+      "选择器",
+      "样式"
+    ]
   },
   {
     "id": 4,
@@ -29,47 +41,71 @@
     "description": "探索神奇的盒模型世界！每个元素都是一个小盒子，有自己的空间和边界。来学习如何装扮这些可爱的小盒子吧~",
     "link": "/practice/03-css-02",
     "imageUrl": "/practice/images/Chiikawa透明动图 (11)_爱给网_aigei_com.gif",
-    "tags": ["盒模型", "布局基础", "空间设计"]
+    "tags": [
+      "盒模型",
+      "布局基础",
+      "空间设计"
+    ]
   },
   {
     "id": 5,
-    "title": "浮动与定位游乐场",
+    "title": "浮动与定位",
     "description": "让元素们像气球一样自由浮动，或者像磁铁一样精准定位！学习如何让页面元素乖乖听话~",
     "link": "/practice/04-css-01",
     "imageUrl": "/practice/images/Chiikawa透明动图 (12)_爱给网_aigei_com.gif",
-    "tags": ["浮动布局", "定位技巧", "页面排版"]
+    "tags": [
+      "浮动布局",
+      "定位技巧",
+      "页面排版"
+    ]
   },
   {
     "id": 6,
-    "title": "精准定位小能手",
+    "title": "精准定位",
     "description": "成为页面布局的小小建筑师！学习相对定位和绝对定位，让每个元素都能找到自己的完美位置~",
     "link": "/practice/04-css-02",
     "imageUrl": "/practice/images/吉伊卡哇chiikawa动态表情9_爱给网_aigei_com.gif",
-    "tags": ["绝对定位", "相对定位", "布局控制"]
+    "tags": [
+      "绝对定位",
+      "相对定位",
+      "布局控制"
+    ]
   },
   {
     "id": 7,
-    "title": "相对定位小课堂",
+    "title": "相对定位",
     "description": "深入理解相对定位的奥秘！就像给元素们设定一个温馨的小家，让它们相对于原来的位置移动~",
     "link": "/practice/04-css-02-relative",
     "imageUrl": "/practice/images/chiikawa表情包动图 (10)_爱给网_aigei_com.gif",
-    "tags": ["相对定位", "位置调整", "布局进阶"]
+    "tags": [
+      "相对定位",
+      "位置调整",
+      "布局进阶"
+    ]
   },
   {
     "id": 8,
-    "title": "可爱新闻小报1",
+    "title": "新闻小报1",
     "description": "用HTML和CSS创建第一份可爱的新闻页面！就像制作校园小报一样有趣，每个新闻都有自己的小故事~",
     "link": "/practice/05-news01",
     "imageUrl": "/practice/images/chiikawa动态表情包 (159)_爱给网_aigei_com.gif",
-    "tags": ["静态页面", "新闻布局", "内容展示"]
+    "tags": [
+      "静态页面",
+      "新闻布局",
+      "内容展示"
+    ]
   },
   {
     "id": 9,
-    "title": "互动新闻小世界",
+    "title": "互动新闻",
     "description": "给新闻页面加上JavaScript魔法！点击、滑动、变化，让页面活起来，就像童话故事一样生动~",
     "link": "/practice/06-news01",
     "imageUrl": "/practice/images/chiikawa动态表情包 (208)_爱给网_aigei_com.gif",
-    "tags": ["JavaScript交互", "DOM操作", "用户体验"]
+    "tags": [
+      "JavaScript交互",
+      "DOM操作",
+      "用户体验"
+    ]
   },
   {
     "id": 10,
@@ -77,30 +113,46 @@
     "description": "打造更复杂精美的新闻页面！就像导演一场华丽的舞台剧，每个元素都有自己的角色和表演~",
     "link": "/practice/06-news02",
     "imageUrl": "/practice/images/Chiikawa透明动图 (11)_爱给网_aigei_com.gif",
-    "tags": ["复杂布局", "脚本交互", "页面美化"]
+    "tags": [
+      "复杂布局",
+      "脚本交互",
+      "页面美化"
+    ]
   },
   {
     "id": 11,
-    "title": "异步魔法学院1",
+    "title": "异步编程",
     "description": "进入异步编程的魔法学院！学习Promise和async/await咒语，让代码像魔法一样优雅地处理异步任务~",
     "link": "/practice/07-async-01",
     "imageUrl": "/practice/images/Chiikawa透明动图 (12)_爱给网_aigei_com.gif",
-    "tags": ["异步编程", "Promise", "现代JavaScript"]
+    "tags": [
+      "异步编程",
+      "Promise",
+      "现代JavaScript"
+    ]
   },
   {
     "id": 12,
-    "title": "数据获取小火箭",
+    "title": "数据获取",
     "description": "用fetch API从服务器获取数据！就像发射小火箭去太空收集星星，然后带回地球展示给大家看~",
     "link": "/practice/07-async-02",
     "imageUrl": "/practice/images/吉伊卡哇chiikawa动态表情9_爱给网_aigei_com.gif",
-    "tags": ["Fetch API", "数据请求", "网络通信"]
+    "tags": [
+      "Fetch API",
+      "数据请求",
+      "网络通信"
+    ]
   },
   {
     "id": 13,
-    "title": "温馨小屋首页",
-    "description": "回到最初的温馨小屋！这是我们学习旅程的起点，用最纯真的HTML搭建的第一个家~",
+    "title": "学习小屋首页",
+    "description": "回到最初的学习小屋！这是我们学习旅程的起点，用最纯真的HTML搭建的第一个家~",
     "link": "/practice/index",
     "imageUrl": "/practice/images/chiikawa表情包动图 (10)_爱给网_aigei_com.gif",
-    "tags": ["HTML基础", "起点回忆", "经典怀旧"]
+    "tags": [
+      "HTML基础",
+      "起点回忆",
+      "经典怀旧"
+    ]
   }
-] 
+]

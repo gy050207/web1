@@ -15,7 +15,7 @@ export default function Page() {
         <div className="relative mb-8">
           <Link href="/" className="kawaii-button px-6 py-3 text-white hover:scale-105 transition-all duration-300 inline-flex items-center gap-2 shadow-lg">
             <span className="text-xl">🏠</span>
-            <span>回到可爱小屋</span>
+            <span>回到学习小屋</span>
           </Link>
         </div>
 
@@ -119,15 +119,15 @@ export default function Page() {
                 <div className="bg-white/70 p-4 rounded-lg flex justify-around items-center">
                   <div className="bg-purple-200 text-purple-800 p-3 rounded-lg text-sm font-bold text-center">
                     <div className="text-lg">🎈</div>
-                    Flex子项1
+                    秋秋
                   </div>
                   <div className="bg-purple-200 text-purple-800 p-3 rounded-lg text-sm font-bold text-center">
                     <div className="text-lg">🎀</div>
-                    Flex子项2
+                    幺幺
                   </div>
                   <div className="bg-purple-200 text-purple-800 p-3 rounded-lg text-sm font-bold text-center">
                     <div className="text-lg">🌸</div>
-                    Flex子项3
+                    33
                   </div>
                 </div>
               </div>

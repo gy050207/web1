@@ -15,17 +15,17 @@ export default function Page() {
         <div className="relative mb-8">
           <Link href="/" className="kawaii-button px-6 py-3 text-white hover:scale-105 transition-all duration-300 inline-flex items-center gap-2 shadow-lg">
             <span className="text-xl">🏠</span>
-            <span>回到可爱小屋</span>
+            <span>回到学习小屋</span>
           </Link>
         </div>
 
         <header className="text-center mb-12 relative">
           <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 text-4xl animate-bounce">🌈</div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6 kawaii-decoration">
-            CSS魔法选择器课堂
+            CSS课堂
           </h1>
           <p className="text-lg text-blue-600 max-w-2xl mx-auto bg-white/60 rounded-full px-8 py-4 shadow-lg">
-            🎭 让我们一起学习CSS的三种神奇选择器吧！每一个都有自己的魔法属性哦~ ✨
+            🎭 让我们一起学习CSS的三种神奇选择器吧！每一个都有自己的属性哦~ ✨
           </p>
         </header>
 
@@ -33,7 +33,7 @@ export default function Page() {
           <div className="p-6 border-b-2 border-blue-200 bg-gradient-to-r from-blue-50 to-purple-50">
             <h3 className="text-2xl font-bold text-blue-800 flex items-center gap-3">
               <span className="text-3xl animate-pulse">🎪</span>
-              魔法效果演示台
+              效果演示台
             </h3>
           </div>
           
@@ -41,7 +41,7 @@ export default function Page() {
             {/* 主标题 */}
             <div className="text-center">
               <h1 className="text-3xl font-bold text-blue-600 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent" style={{ fontFamily: 'Comic Sans MS, cursive' }}>
-                🎨 CSS魔法练习演示 🎨
+                🎨 CSS练习演示 🎨
               </h1>
             </div>
             
@@ -102,7 +102,7 @@ export default function Page() {
               <div className="text-4xl mb-3">🎊</div>
               <h3 className="text-xl font-bold text-yellow-700 mb-2">恭喜完成CSS选择器学习！</h3>
               <p className="text-yellow-600">
-                现在你已经掌握了CSS的三种基础选择器魔法咒语啦~ 继续加油！💪✨
+                现在你已经掌握了CSS的三种基础选择器啦~ 继续加油！💪✨
               </p>
             </div>
           </div>

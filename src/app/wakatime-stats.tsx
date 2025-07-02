@@ -83,7 +83,7 @@ export default function WakaTimeStats() {
         </div>
 
         <p className="text-sm text-blue-500 bg-white/50 px-4 py-2 rounded-full inline-block mt-4">
-          💕 每一行代码都充满爱意 💕
+          💕 遇事不决，可问春风 💕
         </p>
       </div>
     </footer>

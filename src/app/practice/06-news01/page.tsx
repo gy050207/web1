@@ -27,7 +27,7 @@ export default function Page() {
         console.log(`📝 ${this.name} 正在努力考试中~加油加油！💪`);
       }
     }
-    const xiaoming = new Student('小明同学', 7, '可爱实验小学', 1);
+    const xiaoming = new Student('幺幺', 7, '前进楼小学', 1);
     xiaoming.learn('英语');
     xiaoming.exam();
 
@@ -44,7 +44,7 @@ export default function Page() {
         console.log(super.exam());
       }
     }
-    const xiaoming2 = new Undergraduate('小明学长', 17, '温馨科技大学', 1, '新闻学', 0);
+    const xiaoming2 = new Undergraduate('幺幺', 17, '千金楼大学', 1, '新闻学', 0);
     xiaoming2.intern('腾讯');
 
     // 可爱的回调函数，函数作为参数传递给另一个函数
@@ -80,7 +80,7 @@ export default function Page() {
         <div className="relative mb-8">
           <Link href="/" className="kawaii-button px-6 py-3 text-white hover:scale-105 transition-all duration-300 inline-flex items-center gap-2 shadow-lg">
             <span className="text-xl">🏠</span>
-            <span>回到温馨小屋</span>
+            <span>回到学习小屋</span>
           </Link>
         </div>
 
@@ -181,7 +181,7 @@ export default function Page() {
                 <div className="text-3xl mb-3">🎓</div>
                 <h3 className="font-bold text-green-700 mb-2">学生类演示</h3>
                 <p className="text-sm text-green-600">
-                  控制台中有小明同学的学习记录！
+                  控制台中有幺幺的学习记录！
                 </p>
               </div>
               

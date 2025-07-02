@@ -16,7 +16,7 @@ export default function Page() {
         <div className="relative mb-8">
           <Link href="/" className="kawaii-button px-6 py-3 text-white hover:scale-105 transition-all duration-300 inline-flex items-center gap-2 shadow-lg">
             <span className="text-xl">🏠</span>
-            <span>回到温馨小屋</span>
+            <span>回到学习小屋</span>
           </Link>
         </div>
 
@@ -111,19 +111,19 @@ export default function Page() {
               <ol className="space-y-2 text-green-600 font-semibold">
                 <li className="flex items-center gap-2">
                   <span className="bg-green-200 text-green-800 px-2 py-1 rounded-full text-sm">1</span>
-                  🎈 这是一个可爱的列表项
+                  🎈 苹果
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="bg-green-200 text-green-800 px-2 py-1 rounded-full text-sm">2</span>
-                  🌸 这也是一个可爱的列表项
+                  🌸 葡萄
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="bg-green-200 text-green-800 px-2 py-1 rounded-full text-sm">3</span>
-                  ⭐ 还是一个可爱的列表项
+                  ⭐ 草莓
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="bg-green-200 text-green-800 px-2 py-1 rounded-full text-sm">4</span>
-                  🦋 最后一个可爱的列表项
+                  🦋 芒果
                 </li>
               </ol>
             </div>
@@ -183,21 +183,21 @@ export default function Page() {
                   <tbody>
                     <tr className="hover:bg-cyan-50 transition-colors">
                       <td className="border border-cyan-200 p-3 text-center font-semibold text-cyan-700">1</td>
-                      <td className="border border-cyan-200 p-3 text-cyan-700">第一个可爱单元格 🎈</td>
+                      <td className="border border-cyan-200 p-3 text-cyan-700">学习 🎈</td>
                       <td className="border border-cyan-200 p-3 text-center">
                         <span className="bg-green-100 text-green-700 px-2 py-1 rounded-full text-sm">✅ 完成</span>
                       </td>
                     </tr>
                     <tr className="hover:bg-cyan-50 transition-colors">
                       <td className="border border-cyan-200 p-3 text-center font-semibold text-cyan-700">2</td>
-                      <td className="border border-cyan-200 p-3 text-cyan-700">第二个可爱单元格 🌸</td>
+                      <td className="border border-cyan-200 p-3 text-cyan-700">期末 🌸</td>
                       <td className="border border-cyan-200 p-3 text-center">
                         <span className="bg-yellow-100 text-yellow-700 px-2 py-1 rounded-full text-sm">⏳ 进行中</span>
                       </td>
                     </tr>
                     <tr className="hover:bg-cyan-50 transition-colors">
                       <td className="border border-cyan-200 p-3 text-center font-semibold text-cyan-700">3</td>
-                      <td className="border border-cyan-200 p-3 text-cyan-700">第三个可爱单元格 ⭐</td>
+                      <td className="border border-cyan-200 p-3 text-cyan-700">暑假 ⭐</td>
                       <td className="border border-cyan-200 p-3 text-center">
                         <span className="bg-blue-100 text-blue-700 px-2 py-1 rounded-full text-sm">📋 计划中</span>
                       </td>
